@@ -17,9 +17,8 @@ build:
     - train_gmm.py    = bob.bio.gmm.script.train_gmm:main
     - train_isv.py      = bob.bio.gmm.script.train_isv:main
     - train_ivector.py   = bob.bio.gmm.script.train_ivector:main
-  number: 0
+  number: 1
   skip: true  # [win]
-  script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
